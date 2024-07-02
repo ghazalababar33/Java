@@ -1,14 +1,9 @@
 import java.util.Scanner;
 public class LessonTwo{
-    /* static means that only a class can call for this function to execute
-    * Creates a new scanner object named userInput
-    * You create the Scanner object by calling new and passing the Scanner constructor
-    * the input stream to look at (System.in = keyboard input)
-    */
     static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args)
     {
-        System.out.print("Your favorite number: "); // Same as println without a newline
+        System.out.print("Your favorite number: "); 
     /* The if statement will only execute the code that lies between {} if the value inside () is true
          * userInput.hasNextDouble() returns true if the next value entered is a Double
          * There are similar methods for the other data types
