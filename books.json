@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "metadata": {
+        "price": 18.99,
+        "categories": ["Fiction", "Classic"],
+        "ISBN": "978-0-06-112008-4",
+        "number_of_pages": 281
+      }
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "metadata": {
+        "price": 15.99,
+        "categories": ["Fiction", "Dystopian"],
+        "ISBN": "978-0-452-28423-4",
+        "number_of_pages": 328
+      }
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "metadata": {
+        "price": 10.99,
+        "categories": ["Fiction", "Classic"],
+        "ISBN": "978-0-7432-7356-5",
+        "number_of_pages": 180
+      }
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "metadata": {
+        "price": 12.99,
+        "categories": ["Fiction", "Classic"],
+        "ISBN": "978-0-316-76948-0",
+        "number_of_pages": 214
+      }
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "metadata": {
+        "price": 9.99,
+        "categories": ["Fiction", "Romance"],
+        "ISBN": "978-0-19-280238-5",
+        "number_of_pages": 279
+      }
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "metadata": {
+        "price": 14.99,
+        "categories": ["Fiction", "Fantasy"],
+        "ISBN": "978-0-618-00221-3",
+        "number_of_pages": 310
+      }
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "metadata": {
+        "price": 11.99,
+        "categories": ["Fiction", "Adventure"],
+        "ISBN": "978-0-14-243724-7",
+        "number_of_pages": 635
+      }
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "metadata": {
+        "price": 19.99,
+        "categories": ["Fiction", "Historical"],
+        "ISBN": "978-0-19-923276-5",
+        "number_of_pages": 1225
+      }
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "metadata": {
+        "price": 13.99,
+        "categories": ["Fiction", "Psychological"],
+        "ISBN": "978-0-14-305814-4",
+        "number_of_pages": 671
+      }
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "metadata": {
+        "price": 16.99,
+        "categories": ["Fiction", "Epic"],
+        "ISBN": "978-0-14-026886-7",
+        "number_of_pages": 541
+      }
+    }
+  ]
+}
