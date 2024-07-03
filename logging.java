@@ -6,18 +6,9 @@ import java.util.logging.*;
 class DemoLogger { 
 	private final static Logger LOGGER = 
 				Logger.getLogger(Logger.GLOBAL_LOGGER_NAME); 
-
-	// Get the Logger from the log manager which corresponds 
-	// to the given name <Logger.GLOBAL_LOGGER_NAME here> 
-	// static so that it is linked to the class and not to 
-	// a particular log instance because Log Manage is universal 
 	public void makeSomeLog() 
 	{ 
-		// add some code of your choice here 
-		// Moving to the logging part now 
 		LOGGER.log(Level.INFO, "My first Log Message"); 
-
-		// A log of INFO level with the message "My First Log Message" 
 	} 
 } 
 
@@ -27,8 +18,6 @@ public class GfG {
 		DemoLogger obj = new DemoLogger(); 
 		obj.makeSomeLog(); 
 
-		// Generating some log messages through the 
-		// function defined above 
 		LogManager lgmngr = LogManager.getLogManager(); 
 
 		// lgmngr now contains a reference to the log manager. 
