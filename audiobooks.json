@@ -1,0 +1,29 @@
+{
+  "audiobooks": [
+    {
+      "title": "The Power of Habit",
+      "narrator": "Charles Duhigg",
+      "price": 14.99
+    },
+    {
+      "title": "Atomic Habits",
+      "narrator": "James Clear",
+      "price": 16.99
+    },
+    {
+      "title": "Becoming",
+      "narrator": "Michelle Obama",
+      "price": 18.99
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "narrator": "Derek Perkins",
+      "price": 19.99
+    },
+    {
+      "title": "Educated",
+      "narrator": "Tara Westover",
+      "price": 13.99
+    }
+  ]
+}

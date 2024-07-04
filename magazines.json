@@ -1,0 +1,79 @@
+{
+  "magazines": [
+    {
+      "title": "National Geographic",
+      "publisher": "National Geographic Society",
+      "price": 5.99
+    },
+    {
+      "title": "Time",
+      "publisher": "Time USA, LLC",
+      "price": 4.99
+    },
+    {
+      "title": "The Economist",
+      "publisher": "The Economist Group",
+      "price": 6.99
+    },
+    {
+      "title": "Forbes",
+      "publisher": "Forbes Media LLC",
+      "price": 6.49
+    },
+    {
+      "title": "Scientific American",
+      "publisher": "Springer Nature",
+      "price": 7.99
+    },
+    {
+      "title": "Reader's Digest",
+      "publisher": "Trusted Media Brands, Inc.",
+      "price": 3.99
+    },
+    {
+      "title": "Vogue",
+      "publisher": "Condé Nast",
+      "price": 5.99
+    },
+    {
+      "title": "People",
+      "publisher": "Meredith Corporation",
+      "price": 4.49
+    },
+    {
+      "title": "Better Homes & Gardens",
+      "publisher": "Meredith Corporation",
+      "price": 4.99
+    },
+    {
+      "title": "Sports Illustrated",
+      "publisher": "Maven Coalition",
+      "price": 5.99
+    },
+    {
+      "title": "Harvard Business Review",
+      "publisher": "Harvard Business Publishing",
+      "price": 9.99
+    },
+    {
+      "title": "The New Yorker",
+      "publisher": "Condé Nast",
+      "price": 8.99
+    },
+    {
+      "title": "Wired",
+      "publisher": "Condé Nast",
+      "price": 7.99
+    },
+    {
+      "title": "National Review",
+      "publisher": "National Review, Inc.",
+      "price": 6.99
+    },
+    {
+      "title": "GQ",
+      "publisher": "Condé Nast",
+      "price": 6.49
+    }
+  ]
+}
