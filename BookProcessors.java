@@ -4,11 +4,11 @@ import java.util.*;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
-public class BookProcessor {
+public class BookProcessors {
 
     private List<Books> books;
 
-    public BookProcessor(List<Books> books) {
+    public BookProcessors(List<Books> books) {
         this.books = books;
     }
 
@@ -36,7 +36,7 @@ public class BookProcessor {
         if (averagePrice.isPresent()) {
             System.out.println("Average price of all the books: " + averagePrice.getAsDouble());
         } else {
-            System.out.println("No books is present in the bookprocessor to calculate the average price.");
+            System.out.println("No books are present in the book processor to calculate the average price.");
         }
     }
 
@@ -45,10 +45,10 @@ public class BookProcessor {
                 .max((book1, book2) -> Double.compare(book1.getMetadata().getPrice(), book2.getMetadata().getPrice()))
                 .ifPresentOrElse(
                         book -> {
-                            System.out.println("This is the Book with the highest price:");
+                            System.out.println("This is the book with the highest price:");
                             book.displayBookInfo();
                         },
-                        () -> System.out.println("No books is available in the BookProcessor.")
+                        () -> System.out.println("No books are available in the BookProcessors.")
                 );
     }
 
