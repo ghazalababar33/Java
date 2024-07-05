@@ -2,13 +2,13 @@ package com.example.Assignment;
 
 import java.util.*;
 
-public class Metadata {
+public class Metadataa {
     private double price;
     private List<String> categories;
     private String ISBN;
     private int no_of_Pages;
 
-    public Metadata(double price, List<String> categories, String ISBN, int numberOfPages) {
+    public Metadataa(double price, List<String> categories, String ISBN, int numberOfPages) {
         this.price = price;
         this.categories = categories;
         this.ISBN = ISBN;
@@ -40,4 +40,3 @@ public class Metadata {
         return no_of_Pages;
     }
 }
-
