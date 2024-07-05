@@ -1,7 +1,7 @@
 package com.example.Assignment;
 
 import java.util.List;
-public class BookList {
+public class BookLists {
 	
 	    private List<Books> books;
 
