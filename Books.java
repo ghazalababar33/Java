@@ -2,12 +2,12 @@ package com.example.Assignment;
 
 import java.util.*;
 
-public class Books {
+public class Bookss {
     private String title;
     private String author;
     private Metadata metadata;
 
-    public Books(String title, String author, Metadata metadata) {
+    public Bookss(String title, String author, Metadata metadata) {
         this.title = title;
         this.author = author;
         this.metadata = metadata;
